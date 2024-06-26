@@ -193,110 +193,116 @@ public class ThermalExtraItems {
                     .mod(TAG_AUGMENT_POTION_DURATION, 2F)
                     .build()).setShowInGroups(getFlag(FLAG_POTION_AUGMENTS)));
 
-    public static final RegistryObject<Item> rf_coil_augment_1 = ITEMS.register("rf_coil_augment_1", () -> new AugmentItem(new Item.Properties().rarity(tier1Rarity).tab(augmentTab),
-            AugmentDataHelper.builder()
-                    .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 8.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 8.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
-
-    public static final RegistryObject<Item> rf_coil_augment_2 = ITEMS.register("rf_coil_augment_2", () -> new AugmentItem(new Item.Properties().rarity(tier2Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_augment_1 = ITEMS.register("rf_coil_augment_1", () -> new AugmentItem(new Item.Properties().rarity(yellow),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
                     .mod(TAG_AUGMENT_RF_STORAGE, 12.0F)
                     .mod(TAG_AUGMENT_RF_XFER, 12.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_augment_3 = ITEMS.register("rf_coil_augment_3", () -> new AugmentItem(new Item.Properties().rarity(tier3Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_augment_2 = ITEMS.register("rf_coil_augment_2", () -> new AugmentItem(new Item.Properties().rarity(yellow),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 16.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 16.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_STORAGE, 36.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 36.0F)
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_augment_4 = ITEMS.register("rf_coil_augment_4", () -> new AugmentItem(new Item.Properties().rarity(tier4Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_augment_3 = ITEMS.register("rf_coil_augment_3", () -> new AugmentItem(new Item.Properties().rarity(dark_aqua),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 20.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 20.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_STORAGE, 108.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 108.0F)
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_augment_5 = ITEMS.register("rf_coil_augment_5", () -> new AugmentItem(new Item.Properties().rarity(tier4Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_augment_4 = ITEMS.register("rf_coil_augment_4", () -> new AugmentItem(new Item.Properties().rarity(dark_purple),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 24.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 24.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_STORAGE, 324.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 324.0F)
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_storage_augment_1 = ITEMS.register("rf_coil_storage_augment_1", () -> new AugmentItem(new Item.Properties().rarity(tier1Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_augment_5 = ITEMS.register("rf_coil_augment_5", () -> new AugmentItem(new Item.Properties().rarity(red),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 10.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 4.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_STORAGE, 972.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 972.0F)
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_storage_augment_2 = ITEMS.register("rf_coil_storage_augment_2", () -> new AugmentItem(new Item.Properties().rarity(tier2Rarity).tab(augmentTab),
-            AugmentDataHelper.builder()
-                    .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 14.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 6.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
-
-    public static final RegistryObject<Item> rf_coil_storage_augment_3 = ITEMS.register("rf_coil_storage_augment_3", () -> new AugmentItem(new Item.Properties().rarity(tier3Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_storage_augment_1 = ITEMS.register("rf_coil_storage_augment_1", () -> new AugmentItem(new Item.Properties().rarity(yellow),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
                     .mod(TAG_AUGMENT_RF_STORAGE, 18.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 8.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_XFER, 6.0F)
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_storage_augment_4 = ITEMS.register("rf_coil_storage_augment_4", () -> new AugmentItem(new Item.Properties().rarity(tier4Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_storage_augment_2 = ITEMS.register("rf_coil_storage_augment_2", () -> new AugmentItem(new Item.Properties().rarity(yellow),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 22.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 10.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_STORAGE, 54.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 18.0F)
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_storage_augment_5 = ITEMS.register("rf_coil_storage_augment_5", () -> new AugmentItem(new Item.Properties().rarity(tier4Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_storage_augment_3 = ITEMS.register("rf_coil_storage_augment_3", () -> new AugmentItem(new Item.Properties().rarity(dark_aqua),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 26.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 12.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_STORAGE, 162.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 54.0F)
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_xfer_augment_1 = ITEMS.register("rf_coil_xfer_augment_1", () -> new AugmentItem(new Item.Properties().rarity(tier1Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_storage_augment_4 = ITEMS.register("rf_coil_storage_augment_4", () -> new AugmentItem(new Item.Properties().rarity(dark_purple),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 4.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 10.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_STORAGE, 486.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 162.0F)
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_xfer_augment_2 = ITEMS.register("rf_coil_xfer_augment_2", () -> new AugmentItem(new Item.Properties().rarity(tier2Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_storage_augment_5 = ITEMS.register("rf_coil_storage_augment_5", () -> new AugmentItem(new Item.Properties().rarity(red),
+            AugmentDataHelper.builder()
+                    .type(TAG_AUGMENT_TYPE_RF)
+                    .mod(TAG_AUGMENT_RF_STORAGE, 1458.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 486.0F)
+                    .build()));
+
+    public static final RegistryObject<Item> rf_coil_xfer_augment_1 = ITEMS.register("rf_coil_xfer_augment_1", () -> new AugmentItem(new Item.Properties().rarity(yellow),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
                     .mod(TAG_AUGMENT_RF_STORAGE, 6.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 14.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
-
-    public static final RegistryObject<Item> rf_coil_xfer_augment_3 = ITEMS.register("rf_coil_xfer_augment_3", () -> new AugmentItem(new Item.Properties().rarity(tier3Rarity).tab(augmentTab),
-            AugmentDataHelper.builder()
-                    .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 8.0F)
                     .mod(TAG_AUGMENT_RF_XFER, 18.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_xfer_augment_4 = ITEMS.register("rf_coil_xfer_augment_4", () -> new AugmentItem(new Item.Properties().rarity(tier4Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_xfer_augment_2 = ITEMS.register("rf_coil_xfer_augment_2", () -> new AugmentItem(new Item.Properties().rarity(yellow),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 10.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 22.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_STORAGE, 18.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 54.0F)
+                    .build()));
 
-    public static final RegistryObject<Item> rf_coil_xfer_augment_5 = ITEMS.register("rf_coil_xfer_augment_5", () -> new AugmentItem(new Item.Properties().rarity(tier4Rarity).tab(augmentTab),
+    public static final RegistryObject<Item> rf_coil_xfer_augment_3 = ITEMS.register("rf_coil_xfer_augment_3", () -> new AugmentItem(new Item.Properties().rarity(dark_aqua),
             AugmentDataHelper.builder()
                     .type(TAG_AUGMENT_TYPE_RF)
-                    .mod(TAG_AUGMENT_RF_STORAGE, 12.0F)
-                    .mod(TAG_AUGMENT_RF_XFER, 26.0F)
-                    .build()).setShowInGroups(getFlag(FLAG_STORAGE_AUGMENTS)));
+                    .mod(TAG_AUGMENT_RF_STORAGE, 54.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 162.0F)
+                    .build()));
+
+    public static final RegistryObject<Item> rf_coil_xfer_augment_4 = ITEMS.register("rf_coil_xfer_augment_4", () -> new AugmentItem(new Item.Properties().rarity(dark_purple),
+            AugmentDataHelper.builder()
+                    .type(TAG_AUGMENT_TYPE_RF)
+                    .mod(TAG_AUGMENT_RF_STORAGE, 162.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 486.0F)
+                    .build()));
+
+    public static final RegistryObject<Item> rf_coil_xfer_augment_5 = ITEMS.register("rf_coil_xfer_augment_5", () -> new AugmentItem(new Item.Properties().rarity(red),
+            AugmentDataHelper.builder()
+                    .type(TAG_AUGMENT_TYPE_RF)
+                    .mod(TAG_AUGMENT_RF_STORAGE, 486.0F)
+                    .mod(TAG_AUGMENT_RF_XFER, 1458.0F)
+                    .build()));
+
+    public static final RegistryObject<Item> tank_augment_1 = ITEMS.register("fluid_tank_augment_1", () -> new AugmentItem(new Item.Properties().rarity(yellow),
+            AugmentDataHelper.builder()
+                    .type(TAG_AUGMENT_TYPE_FLUID)
+                    .mod(TAG_AUGMENT_FLUID_STORAGE, 8.0F)
+                    .build()));
 
     public static final RegistryObject<Item> tank_augment_1 = ITEMS.register("fluid_tank_augment_1", () -> new AugmentItem(new Item.Properties().rarity(tier1Rarity).tab(augmentTab),
             AugmentDataHelper.builder()
